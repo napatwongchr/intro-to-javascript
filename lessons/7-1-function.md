@@ -29,38 +29,6 @@ let sayHi = function () {
 
 <br><hr><br>
 
-## Function as a Values
-
-ใน JS function สามารถเป็น value ตัวนึงได้ เราสามารถที่จะ assign ใส่เข้าไปในตัวแปร เพื่อเอาไปทำอะไรสักอย่างต่อได้
-
-```javascript
-function calculateBill() {
-  console.log("Your balance is 3230 Baht.");
-}
-
-let calculate = calculateBill;
-
-calculateBill();
-calculate();
-```
-
-เรายังสามารถที่จะส่งผ่านเข้าไปใน function กันเองได้ด้วย เนื่องจากมันเป็น value ตัวนึง
-
-```javascript
-let sayHi = function (sayBye) {
-  console.log("Hello");
-  sayBye();
-};
-
-let sayBye = function () {
-  console.log("Bye.");
-};
-
-sayHi(sayBye);
-```
-
-<br><hr><br>
-
 ## Local and Global Variables
 
 เราสามารถสร้าง variable ใน function ได้ เราจะเรียก variable ที่อยู่ใน function นี้ว่า **"Local Variables"**
@@ -170,6 +138,51 @@ if (hasPermission) {
 ```
 
 🌟 **ถ้า Function ไม่มี return statement มันจะ return undefined**
+
+<br><hr><br>
+
+## Function as a Values
+
+ใน JS function สามารถเป็น value ตัวนึงได้ เราสามารถที่จะ assign ใส่เข้าไปในตัวแปร เพื่อเอาไปทำอะไรสักอย่างต่อได้
+
+```javascript
+function calculateBill() {
+  console.log("Your balance is 3230 Baht.");
+}
+
+let calculate = calculateBill;
+
+calculateBill();
+calculate();
+```
+
+เรายังสามารถที่จะส่งผ่านเข้าไปใน function กันเองได้ด้วย เนื่องจากมันเป็น value ตัวนึง
+
+```javascript
+let sayHi = function (sayBye) {
+  console.log("Hello");
+  sayBye();
+};
+
+let sayBye = function () {
+  console.log("Bye.");
+};
+
+sayHi(sayBye);
+```
+
+เรายังสามารถที่จะ return function ออกมาจาก function ได้เช่นเดียวกันนะ
+
+```javascript
+function showMessage(message) {
+  return function holdMessage() {
+    console.log(message);
+  };
+}
+
+let show = showMessage("hi");
+show();
+```
 
 <br><hr><br>
 
