@@ -19,22 +19,22 @@ JS จะแบ่ง Types ของข้อมูลออกเป็น **P
 ตัวอย่างของ Primitive data types
 
 ```javascript
-let values;
+let values
 
-values = 12;
-typeof values; // 'number'
+values = 12
+typeof values // 'number'
 
-values = "Hello All !";
-typeof values; // 'string'
+values = "Hello All !"
+typeof values // 'string'
 
-values = null;
-typeof values; // 'object'
+values = null
+typeof values // 'object'
 
-values = undefined;
-typeof values; // 'undefined'
+values = undefined
+typeof values // 'undefined'
 
-values = 2n ** 53n;
-typeof values; // 'bigint'
+values = 2n ** 53n
+typeof values // 'bigint'
 ```
 
 2. **Objects** ก็จะหน้าตาประมาณนี้
@@ -69,30 +69,30 @@ typeof studentNames; // 'object'
 ## ลองมาดูตัวอย่างเคสเปลี่ยนไปเป็น String กัน
 
 ```javascript
-let value = true;
-console.log(typeof value); // boolean
+let hasPermission = true;
+console.log(typeof hasPermission); // boolean
 
-value = String(value);
-console.log(typeof value); // string
+hasPermission = String(hasPermission);
+console.log(typeof hasPermission); // string
 ```
 
-จากตัวอย่าง เป็นการเปลี่ยน boolean ให้เป็น string ด้วย `String`
+จากตัวอย่าง เป็นการเปลี่ยน boolean ให้เป็น string ด้วย `String()`
 
 ลองดูเคสที่น่าสนใจอีก 1 เคสที่ค่อนข้างเป็นที่พูดถึงกันเยอะมาก คือ ทำไม 1 + "1" เป็น "11"
 
 ```javascript
-let value = 1 + "1";
-console.log(value);
+let value = 1 + "1"
+console.log(value)
 ```
 
 เนื่องจาก การทำงานของ "+" ถ้า JS เห็นว่าเราพยายามจะบวก number เข้ากับ string มันจะทำการเปลี่ยน type number ให้เป็น string ดังนั้นมันเลยเอา string 1 มาต่อกับ string 1
 
 ```javascript
-1 + "1";
+1 + "1"
 
-String(1) + "1";
+String(1) + "1"
 
-("11");
+"11"
 ```
 
 <br><hr><br>
