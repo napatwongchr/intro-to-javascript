@@ -17,7 +17,7 @@
 - [Equality](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/9-equality.md)
 - [Scope and Closure](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/10-scope-and-closure.md)
 - [Objects](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/11-objects.md)
-- this and Prototypes
+- [this and Prototypes](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/12-this-and-prototypes.md)
 - [Array map / filter / reduce](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/13-1-extra-with-array-methods.md)
 - [Asynchronous JavaScript](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-1-asynchronous-javascript.md)
 - [Callback JavaScript](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-2-asynchronous-callback-function.md)
