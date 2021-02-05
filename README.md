@@ -19,3 +19,7 @@
 - [Objects](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/11-objects.md)
 - this and Prototypes
 - [Array map / filter / reduce](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/13-1-extra-with-array-methods.md)
+- [Asynchronous JavaScript](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-1-asynchronous-javascript.md)
+- [Callback JavaScript](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-2-asynchronous-callback-function.md)
+- [Promise](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-3-asynchronous-promise.md)
+- [Async / Await](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-4.asynchronous-async-await.md)
