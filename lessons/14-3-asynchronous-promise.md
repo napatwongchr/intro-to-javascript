@@ -37,6 +37,10 @@ let getPosts = new Promise(function (resolve, reject) {
 
 ### มาดู .then กันก่อน
 
+Promise Object จะมี method ที่เรียกว่า `then`
+
+`then` คือ method ที่รับ Callback function เข้ามา และ Callback function นี้ จะถูกเรียกใช้งานก็ต่อเมื่อ **Promise resolve** ข้อมูลออกมา
+
 ```js
 let getPosts = new Promise(function (resolve, reject) {
   setTimeout(() => resolve("Posts data"), 1000);
@@ -48,6 +52,10 @@ getPosts.then(function onCompleted(data) {
 ```
 
 ### .catch
+
+Promise Object จะมี method ที่เรียกว่า `catch`
+
+`catch` คือ method ที่รับ Callback function เข้ามา และ Callback function นี้ จะถูกเรียกใช้งานก็ต่อเมื่อ **Promise reject** เนื่องจากเกิด error บางอย่าง
 
 ```js
 let getPosts = new Promise(function (resolve, reject) {
@@ -63,6 +71,10 @@ getPosts.catch(function onError(error) {
 
 ## Chaining .then
 
+ในโลกของความเป็นจริงนั้น เราอาจจะมี Function การทำงานที่เราไม่รู้ว่ามันจะทำงานเสร็จเมื่อไหร่ มากกว่า 1 Functions แน่นอน คำถามเราคือ ถ้า Functions เหล่านั้นทำงานเสร็จ ในเวลาที่ไม่เท่ากัน เราจะเรียงการทำงานของ Function พวกนั้นให้เป็นลำดับยังไงตามที่เราอยากจะได้
+
+ในตัวอย่างนี้เรามีเงื่อนไขว่า เราต้อง getUser ก่อน แล้วค่อย getPosts แล้วค่อย getComments
+
 ```js
 let output = (data) => {
   console.log("Data: ", data);
@@ -71,7 +83,7 @@ let output = (data) => {
 
 let getUser = (userId) => {
   return new Promise(function (resolve, reject) {
-    setTimeout(() => resolve("User_1"), 1000);
+    setTimeout(() => resolve("User_1"), 3000);
   });
 };
 
@@ -83,7 +95,7 @@ let getPosts = (user) => {
 
 let getComments = (post) => {
   return new Promise(function (resolve, reject) {
-    setTimeout(() => resolve("Comments of Post"), 1000);
+    setTimeout(() => resolve("Comments of Post"), 1500);
   });
 };
 
