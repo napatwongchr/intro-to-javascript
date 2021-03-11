@@ -26,3 +26,33 @@
 - [What is API](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-5-what-is-api.md)
 - [Playing With API](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-6-playing-with-api.md)
 - [Fetch](https://github.com/napatwongchr/intro-to-javascript/blob/main/lessons/14-7-asynchronous-fetch.md)
+
+<br><hr><br>
+
+## More Exercises
+
+**A) Let's adventure at this repository**
+
+https://github.com/lydiahallie/javascript-questions
+
+**Exercise Number**
+
+Types and Coercion - 1 2 4 5 6 7 15 47 50 51 55 59 60 90 99 <br>
+Scope and Closure - 81 111 <br>
+This and Prototypes - 3 11 12 28 53 <br>
+Try catch - 52 <br>
+Asynchronous - 85 <br>
+
+<br><hr><br>
+
+**B) Practice more Algo exercises**
+
+[Reverse string](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/reversestring/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/reversestring/index.js)) <br>
+[Palindrome](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/palindrome/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/palindrome/index.js)) <br>
+[Capitalize](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/capitalize/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/capitalize/index.js)) <br>
+[Max char](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/maxchar/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/maxchar/index.js)) <br>
+[Vowels](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/vowels/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/vowels/index.js)) <br>
+[Fib](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/fib/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/fib/index.js)) <br>
+[Fizzbuzz](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/fizzbuzz/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/fizzbuzz/index.js))<br>
+[Anagram](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/anagrams/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/anagrams/index.js)) <br>
+[Array chunking](https://github.com/napatwongchr/AlgoCasts/blob/master/exercises/chunk/index.js) ([Answer](https://github.com/napatwongchr/AlgoCasts/blob/master/completed_exercises/chunk/index.js)) <br>
