@@ -136,5 +136,5 @@ const bills = [
 
 bills.reduce(function (accumulator, bill) {
   return accumulator + bill.totalPrice;
-});
+},0);
 ```
